@@ -19,7 +19,7 @@
 <img src="https://raw.githubusercontent.com/sam-shridhar1950f/konnect-cs/master/Documentation/Testing2.gif"/>
 </p>
 <p align="center">
-<h3>GUI:</h3>
+<h3>GUI: </h3>
 <img src="https://raw.githubusercontent.com/sam-shridhar1950f/konnect-cs/master/Documentation/GUI.PNG"/>
 </p>
 
