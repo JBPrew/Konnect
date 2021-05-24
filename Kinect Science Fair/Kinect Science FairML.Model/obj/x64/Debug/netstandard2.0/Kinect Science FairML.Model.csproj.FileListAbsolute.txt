@@ -1,0 +1,10 @@
+C:\Kinect Science Fair\Kinect Science FairML.Model\bin\x64\Debug\netstandard2.0\Kinect Science FairML.Model.deps.json
+C:\Kinect Science Fair\Kinect Science FairML.Model\bin\x64\Debug\netstandard2.0\Kinect Science FairML.Model.dll
+C:\Kinect Science Fair\Kinect Science FairML.Model\bin\x64\Debug\netstandard2.0\Kinect Science FairML.Model.pdb
+C:\Kinect Science Fair\Kinect Science FairML.Model\obj\x64\Debug\netstandard2.0\Kinect Science FairML.Model.AssemblyInfoInputs.cache
+C:\Kinect Science Fair\Kinect Science FairML.Model\obj\x64\Debug\netstandard2.0\Kinect Science FairML.Model.AssemblyInfo.cs
+C:\Kinect Science Fair\Kinect Science FairML.Model\obj\x64\Debug\netstandard2.0\Kinect Science FairML.Model.csproj.CoreCompileInputs.cache
+C:\Kinect Science Fair\Kinect Science FairML.Model\obj\x64\Debug\netstandard2.0\Kinect Science FairML.Model.dll
+C:\Kinect Science Fair\Kinect Science FairML.Model\obj\x64\Debug\netstandard2.0\Kinect Science FairML.Model.pdb
+C:\Kinect Science Fair\Kinect Science FairML.Model\bin\x64\Debug\netstandard2.0\MLModel.zip
+C:\Kinect Science Fair\Kinect Science FairML.Model\obj\x64\Debug\netstandard2.0\Kinect Science FairML.Model.csprojAssemblyReference.cache

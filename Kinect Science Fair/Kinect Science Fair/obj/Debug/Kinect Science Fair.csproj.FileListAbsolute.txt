@@ -1,0 +1,38 @@
+C:\Users\Jack's PC\source\repos\Kinect Science Fair\Kinect Science Fair\obj\Debug\Kinect Science Fair.csprojAssemblyReference.cache
+C:\Users\Jack's PC\source\repos\Kinect Science Fair\Kinect Science Fair\obj\Debug\MainWindow.g.cs
+C:\Users\Jack's PC\source\repos\Kinect Science Fair\Kinect Science Fair\obj\Debug\App.g.cs
+C:\Users\Jack's PC\source\repos\Kinect Science Fair\Kinect Science Fair\obj\Debug\Kinect Science Fair_MarkupCompile.cache
+C:\Users\Jack's PC\source\repos\Kinect Science Fair\Kinect Science Fair\obj\Debug\Kinect Science Fair_MarkupCompile.lref
+C:\Users\Jack's PC\source\repos\Kinect Science Fair\Kinect Science Fair\bin\Debug\Kinect Science Fair.exe.config
+C:\Users\Jack's PC\source\repos\Kinect Science Fair\Kinect Science Fair\bin\Debug\Kinect Science Fair.exe
+C:\Users\Jack's PC\source\repos\Kinect Science Fair\Kinect Science Fair\bin\Debug\Kinect Science Fair.pdb
+C:\Users\Jack's PC\source\repos\Kinect Science Fair\Kinect Science Fair\bin\Debug\Microsoft.Kinect.dll
+C:\Users\Jack's PC\source\repos\Kinect Science Fair\Kinect Science Fair\bin\Debug\Microsoft.Kinect.xml
+C:\Users\Jack's PC\source\repos\Kinect Science Fair\Kinect Science Fair\obj\Debug\MainWindow.baml
+C:\Users\Jack's PC\source\repos\Kinect Science Fair\Kinect Science Fair\obj\Debug\Kinect Science Fair.g.resources
+C:\Users\Jack's PC\source\repos\Kinect Science Fair\Kinect Science Fair\obj\Debug\Kinect_Science_Fair.Properties.Resources.resources
+C:\Users\Jack's PC\source\repos\Kinect Science Fair\Kinect Science Fair\obj\Debug\Kinect Science Fair.csproj.GenerateResource.cache
+C:\Users\Jack's PC\source\repos\Kinect Science Fair\Kinect Science Fair\obj\Debug\Kinect Science Fair.csproj.CoreCompileInputs.cache
+C:\Users\Jack's PC\source\repos\Kinect Science Fair\Kinect Science Fair\obj\Debug\Kinect Science Fair.csproj.CopyComplete
+C:\Users\Jack's PC\source\repos\Kinect Science Fair\Kinect Science Fair\obj\Debug\Kinect Science Fair.exe
+C:\Users\Jack's PC\source\repos\Kinect Science Fair\Kinect Science Fair\obj\Debug\Kinect Science Fair.pdb
+C:\Kinect Science Fair\Kinect Science Fair\bin\Debug\Kinect Science Fair.exe.config
+C:\Kinect Science Fair\Kinect Science Fair\bin\Debug\Kinect Science Fair.exe
+C:\Kinect Science Fair\Kinect Science Fair\bin\Debug\Kinect Science Fair.pdb
+C:\Kinect Science Fair\Kinect Science Fair\bin\Debug\Microsoft.Kinect.dll
+C:\Kinect Science Fair\Kinect Science Fair\bin\Debug\Microsoft.Kinect.xml
+C:\Kinect Science Fair\Kinect Science Fair\obj\Debug\Kinect Science Fair.csprojAssemblyReference.cache
+C:\Kinect Science Fair\Kinect Science Fair\obj\Debug\MainWindow.g.cs
+C:\Kinect Science Fair\Kinect Science Fair\obj\Debug\App.g.cs
+C:\Kinect Science Fair\Kinect Science Fair\obj\Debug\Kinect Science Fair_MarkupCompile.cache
+C:\Kinect Science Fair\Kinect Science Fair\obj\Debug\Kinect Science Fair_MarkupCompile.lref
+C:\Kinect Science Fair\Kinect Science Fair\obj\Debug\MainWindow.baml
+C:\Kinect Science Fair\Kinect Science Fair\obj\Debug\Kinect Science Fair.g.resources
+C:\Kinect Science Fair\Kinect Science Fair\obj\Debug\Kinect_Science_Fair.Properties.Resources.resources
+C:\Kinect Science Fair\Kinect Science Fair\obj\Debug\Kinect Science Fair.csproj.GenerateResource.cache
+C:\Kinect Science Fair\Kinect Science Fair\obj\Debug\Kinect Science Fair.csproj.CoreCompileInputs.cache
+C:\Kinect Science Fair\Kinect Science Fair\obj\Debug\Kinect Science Fair.csproj.CopyComplete
+C:\Kinect Science Fair\Kinect Science Fair\obj\Debug\Kinect Science Fair.exe
+C:\Kinect Science Fair\Kinect Science Fair\obj\Debug\Kinect Science Fair.pdb
+C:\Kinect Science Fair\Kinect Science Fair\bin\Debug\Kinect Science FairML.Model.dll
+C:\Kinect Science Fair\Kinect Science Fair\bin\Debug\Kinect Science FairML.Model.pdb

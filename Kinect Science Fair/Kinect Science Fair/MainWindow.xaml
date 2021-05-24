@@ -1,0 +1,147 @@
+﻿<Window x:Class="Kinect_Science_Fair.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kinect_Science_Fair"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1080" Width="1920" Loaded="Window_Loaded" Unloaded="Window_Unloaded" WindowState="Maximized" WindowStyle="None">
+    <Canvas x:Name="mainCanvas" HorizontalAlignment="Left" Height="1080" Margin="0,-25,-8,-6" VerticalAlignment="Top" Width="1920" FlowDirection="LeftToRight">
+
+        <Canvas.Background>
+            <ImageBrush/>
+        </Canvas.Background>
+
+        <Button x:Name="ExportToCSV" Content="Export to CSV" Width="208" Canvas.Left="863" Canvas.Top="47" Click="ExportToCSV_Clicked" FontWeight="Bold" FontSize="15" Height="52" Background="#FFC4F099"/>
+        <TextBox x:Name="status" HorizontalAlignment="Left" Height="52" TextWrapping="Wrap" Text="Status: Boot" VerticalAlignment="Top" Width="214" IsReadOnly="True" FontWeight="Bold" BorderThickness="0" Canvas.Top="32" FlowDirection="LeftToRight" Canvas.Left="28" FontSize="18"/>
+        <Viewbox Height="480"  HorizontalAlignment="Center" Width="640" Canvas.Left="160" Canvas.Top="120">
+            <Image x:Name="ColorImageXAML" Height="480" Width="640" FlowDirection="RightToLeft"/>
+        </Viewbox>
+        <Viewbox Height="480"  HorizontalAlignment="Center" Width="640" Canvas.Left="1120" Canvas.Top="120">
+            <Image x:Name="DepthImageXAML" Height="480" Width="640" FlowDirection="RightToLeft"/>
+        </Viewbox>
+        <TextBox x:Name="RGBStreamLabel" Height="38"  TextWrapping="Wrap" Text="RGB Color Stream" Canvas.Top="61" Width="200" FontWeight="Bold" FontSize="20" BorderThickness="0" HorizontalAlignment="Center" Canvas.Left="380" TextAlignment="Center" IsReadOnly="True" />
+        <TextBox x:Name="DepthStreamLabel_Copy" Height="38"  TextWrapping="Wrap" Text="RGB Depth Stream" Canvas.Top="61" Width="200" FontWeight="Bold" FontSize="20" BorderThickness="0" HorizontalAlignment="Center" Canvas.Left="1340" TextAlignment="Center" IsReadOnly="True" />
+        <TextBox x:Name="FarLeftLabel" Height="38"  TextWrapping="Wrap" Text="Far Left" Canvas.Top="653" Width="100" FontWeight="Bold" FontSize="15" BorderThickness="0" HorizontalAlignment="Center" Canvas.Left="499" TextAlignment="Center" IsReadOnly="True" />
+        <TextBox x:Name="LeftLabel" Height="38"  TextWrapping="Wrap" Text="Left" Canvas.Top="653" Width="100" FontWeight="Bold" FontSize="15" BorderThickness="0" HorizontalAlignment="Center" Canvas.Left="636" TextAlignment="Center" IsReadOnly="True" />
+        <TextBox x:Name="CloseLeftLabel" Height="38"  TextWrapping="Wrap" Text="Close Left" Canvas.Top="653" Width="100" FontWeight="Bold" FontSize="15" BorderThickness="0" HorizontalAlignment="Center" Canvas.Left="773" TextAlignment="Center" IsReadOnly="True" />
+        <TextBox x:Name="CenterLabel" Height="38"  TextWrapping="Wrap" Text="Center" Canvas.Top="653" Width="100" FontWeight="Bold" FontSize="15" BorderThickness="0" HorizontalAlignment="Center" Canvas.Left="910" TextAlignment="Center" IsReadOnly="True" />
+        <TextBox x:Name="CloseRightLabel" Height="38"  TextWrapping="Wrap" Text="Close Right" Canvas.Top="653" Width="100" FontWeight="Bold" FontSize="15" BorderThickness="0" HorizontalAlignment="Center" Canvas.Left="1047" TextAlignment="Center" IsReadOnly="True" />
+        <TextBox x:Name="RightLabel" Height="38"  TextWrapping="Wrap" Text="Right" Canvas.Top="653" Width="100" FontWeight="Bold" FontSize="15" BorderThickness="0" HorizontalAlignment="Center" Canvas.Left="1184" TextAlignment="Center" IsReadOnly="True" />
+        <TextBox x:Name="FarRightLabel" Height="38"  TextWrapping="Wrap" Text="Far Right" Canvas.Top="653" Width="100" FontWeight="Bold" FontSize="15" BorderThickness="0" HorizontalAlignment="Center" Canvas.Left="1321" TextAlignment="Center" IsReadOnly="True" />
+        <TextBox x:Name="FarLeftStatusLabel" Height="38"  TextWrapping="Wrap" Text="Unknown" Canvas.Top="683" Width="100" FontWeight="Bold" FontSize="15" BorderThickness="0" HorizontalAlignment="Center" Canvas.Left="499" TextAlignment="Center" IsReadOnly="True" />
+        <TextBox x:Name="LeftStatusLabel" Height="38"  TextWrapping="Wrap" Text="Unknown" Canvas.Top="683" Width="100" FontWeight="Bold" FontSize="15" BorderThickness="0" HorizontalAlignment="Center" Canvas.Left="636" TextAlignment="Center" IsReadOnly="True" />
+        <TextBox x:Name="CloseLeftStatusLabel" Height="38"  TextWrapping="Wrap" Text="Unknown" Canvas.Top="683" Width="100" FontWeight="Bold" FontSize="15" BorderThickness="0" HorizontalAlignment="Center" Canvas.Left="773" TextAlignment="Center" IsReadOnly="True" />
+        <TextBox x:Name="CenterStatusLabel" Height="38"  TextWrapping="Wrap" Text="Unknown" Canvas.Top="683" Width="100" FontWeight="Bold" FontSize="15" BorderThickness="0" HorizontalAlignment="Center" Canvas.Left="910" TextAlignment="Center" IsReadOnly="True" />
+        <TextBox x:Name="CloseRightStatusLabel" Height="38"  TextWrapping="Wrap" Text="Unknown" Canvas.Top="683" Width="100" FontWeight="Bold" FontSize="15" BorderThickness="0" HorizontalAlignment="Center" Canvas.Left="1047" TextAlignment="Center" IsReadOnly="True" />
+        <TextBox x:Name="RightStatusLabel" Height="38"  TextWrapping="Wrap" Text="Unknown" Canvas.Top="683" Width="100" FontWeight="Bold" FontSize="15" BorderThickness="0" HorizontalAlignment="Center" Canvas.Left="1184" TextAlignment="Center" IsReadOnly="True" />
+        <TextBox x:Name="FarRightStatusLabel" Height="38"  TextWrapping="Wrap" Text="Unknown" Canvas.Top="683" Width="100" FontWeight="Bold" FontSize="15" BorderThickness="0" HorizontalAlignment="Center" Canvas.Left="1321" TextAlignment="Center" IsReadOnly="True" />
+
+        <ComboBox x:Name="FarLeftDropdown" Canvas.Left="499" Canvas.Top="744" FontWeight="Bold" IsReadOnly="True" Width="100">
+            <ComboBoxItem x:Name="FarLeftNoObstacle" IsSelected="True" Content="No Obstacle" FontWeight="Bold"/>
+            <ComboBoxItem x:Name="FarLeftKnownObstacle"  Content="Known Obstacle"/>
+            <ComboBoxItem x:Name="FarLeftUnknownObstacle" Content="Unknown Obstacle"/>
+            <ComboBoxItem x:Name="FarLeftUpstairs" Content="Upstairs"/>
+            <ComboBoxItem x:Name="FarLeftDownstairs" Content="Downstairs"/>
+            <ComboBoxItem x:Name="FarLeftWall" Content="Wall"/>
+            <ComboBoxItem x:Name="FarLeftSideWall" Content="Side Wall"/>
+            <ComboBoxItem x:Name="FarLeftTrash" Content="Trash"/>
+        </ComboBox>
+
+        <ComboBox x:Name="LeftDropdown" Canvas.Left="636" Canvas.Top="744" FontWeight="Bold" IsReadOnly="True" Width="100">
+            <ComboBoxItem x:Name="LeftNoObstacle" IsSelected="True" Content="No Obstacle" FontWeight="Bold"/>
+            <ComboBoxItem x:Name="LeftKnownObstacle"  Content="Known Obstacle"/>
+            <ComboBoxItem x:Name="LeftUnknownObstacle"  Content="Unknown Obstacle"/>
+            <ComboBoxItem x:Name="LeftUpstairs" Content="Upstairs"/>
+            <ComboBoxItem x:Name="LeftDownstairs" Content="Downstairs"/>
+            <ComboBoxItem x:Name="LeftWall" Content="Wall"/>
+            <ComboBoxItem x:Name="LeftSideWall" Content="Side Wall"/>
+            <ComboBoxItem x:Name="LeftTrash" Content="Trash"/>
+
+        </ComboBox>
+
+        <ComboBox x:Name="CloseLeftDropdown" Canvas.Left="773" Canvas.Top="744" FontWeight="Bold" IsReadOnly="True" Width="100">
+            <ComboBoxItem x:Name="CloseLeftNoObstacle" IsSelected="True" Content="No Obstacle" FontWeight="Bold"/>
+            <ComboBoxItem x:Name="CloseLeftKnownObstacle"  Content="Known Obstacle"/>
+            <ComboBoxItem x:Name="CloseLeftUnknownObstacle"  Content="Unknown Obstacle"/>
+            <ComboBoxItem x:Name="CloseLeftUpstairs" Content="Upstairs"/>
+            <ComboBoxItem x:Name="CloseLeftDownstairs" Content="Downstairs"/>
+            <ComboBoxItem x:Name="CloseLeftWall" Content="Wall"/>
+            <ComboBoxItem x:Name="CloseLeftSideWall" Content="Side Wall"/>
+            <ComboBoxItem x:Name="CloseLeftTrash" Content="Trash"/>
+
+        </ComboBox>
+
+        <ComboBox x:Name="CenterDropdown" Canvas.Left="910" Canvas.Top="744" FontWeight="Bold" IsReadOnly="True" Width="100">
+            <ComboBoxItem x:Name="CenterNoObstacle" IsSelected="True" Content="No Obstacle" FontWeight="Bold"/>
+            <ComboBoxItem x:Name="CenterKnownObstacle"  Content="Known Obstacle"/>
+            <ComboBoxItem x:Name="CenterUnknownObstacle"  Content="Unknown Obstacle"/>
+            <ComboBoxItem x:Name="CenterUpstairs" Content="Upstairs"/>
+            <ComboBoxItem x:Name="CenterDownstairs" Content="Downstairs"/>
+            <ComboBoxItem x:Name="CenterWall" Content="Wall"/>
+            <ComboBoxItem x:Name="CenterSideWall" Content="Side Wall"/>
+            <ComboBoxItem x:Name="CenterTrash" Content="Trash"/>
+        </ComboBox>
+
+        <ComboBox x:Name="CloseRightDropdown" Canvas.Left="1047" Canvas.Top="744" FontWeight="Bold" IsReadOnly="True" Width="100">
+            <ComboBoxItem x:Name="CloseRightNoObstacle" IsSelected="True" Content="No Obstacle" FontWeight="Bold"/>
+            <ComboBoxItem x:Name="CloseRightKnownObstacle"  Content="Known Obstacle"/>
+            <ComboBoxItem x:Name="CloseRightUnknownObstacle"  Content="Unknown Obstacle"/>
+            <ComboBoxItem x:Name="CloseRightUpstairs" Content="Upstairs"/>
+            <ComboBoxItem x:Name="CloseRightDownstairs" Content="Downstairs"/>
+            <ComboBoxItem x:Name="CloseRightWall" Content="Wall"/>
+            <ComboBoxItem x:Name="CloseRightSideWall" Content="Side Wall"/>
+            <ComboBoxItem x:Name="CloseRightTrash" Content="Trash"/>
+        </ComboBox>
+
+        <ComboBox x:Name="RightDropdown" Canvas.Left="1184" Canvas.Top="744" FontWeight="Bold" IsReadOnly="True" Width="100">
+            <ComboBoxItem x:Name="RightNoObstacle" IsSelected="True" Content="No Obstacle" FontWeight="Bold"/>
+            <ComboBoxItem x:Name="RightKnownObstacle"  Content="Known Obstacle"/>
+            <ComboBoxItem x:Name="RightUnknownObstacle"  Content="Unknown Obstacle"/>
+            <ComboBoxItem x:Name="RightUpstairs" Content="Upstairs"/>
+            <ComboBoxItem x:Name="RightDownstairs" Content="Downstairs"/>
+            <ComboBoxItem x:Name="RightWall" Content="Wall"/>
+            <ComboBoxItem x:Name="RightSideWall" Content="Side Wall"/>
+            <ComboBoxItem x:Name="RightTrash" Content="Trash"/>
+        </ComboBox>
+
+        <ComboBox x:Name="FarRightDropdown" Canvas.Left="1321" Canvas.Top="744" FontWeight="Bold" IsReadOnly="True" Width="100">
+            <ComboBoxItem x:Name="FarRightNoObstacle" IsSelected="True" Content="No Obstacle" FontWeight="Bold"/>
+            <ComboBoxItem x:Name="FarRightKnownObstacle"  Content="Known Obstacle"/>
+            <ComboBoxItem x:Name="FarRightUnknownObstacle"  Content="Unknown Obstacle"/>
+            <ComboBoxItem x:Name="FarRightUpstairs" Content="Upstairs"/>
+            <ComboBoxItem x:Name="FarRightDownstairs" Content="Downstairs"/>
+            <ComboBoxItem x:Name="FarRightWall" Content="Wall"/>
+            <ComboBoxItem x:Name="FarRightSideWall" Content="Side Wall"/>
+            <ComboBoxItem x:Name="FarRightTrash" Content="Trash"/>
+        </ComboBox>
+        <Rectangle Fill="Black" Height="500" Canvas.Left="239" Stroke="Black" Canvas.Top="110" Width="3" Opacity="0.5"/>
+        <Rectangle Fill="Black" Height="500" Canvas.Left="319" Stroke="Black" Canvas.Top="110" Width="3" Opacity="0.5"/>
+        <Rectangle Fill="Black" Height="500" Canvas.Left="399" Stroke="Black" Canvas.Top="110" Width="3" Opacity="0.5"/>
+        <Rectangle Fill="Black" Height="500" Canvas.Left="479" Stroke="Black" Canvas.Top="110" Width="3" Opacity="0.5"/>
+        <Rectangle Fill="Black" Height="500" Canvas.Left="559" Stroke="Black" Canvas.Top="110" Width="3" Opacity="0.5"/>
+        <Rectangle Fill="Black" Height="500" Canvas.Left="639" Stroke="Black" Canvas.Top="110" Width="3" Opacity="0.5"/>
+        <Rectangle Fill="Black" Height="500" Canvas.Left="719" Stroke="Black" Canvas.Top="110" Width="3" Opacity="0.5"/>
+
+        <Rectangle Fill="Black" Height="500" Canvas.Left="1199" Stroke="Black" Canvas.Top="110" Width="3" Opacity="0.5"/>
+        <Rectangle Fill="Black" Height="500" Canvas.Left="1279" Stroke="Black" Canvas.Top="110" Width="3" Opacity="0.5"/>
+        <Rectangle Fill="Black" Height="500" Canvas.Left="1359" Stroke="Black" Canvas.Top="110" Width="3" Opacity="0.5"/>
+        <Rectangle Fill="Black" Height="500" Canvas.Left="1439" Stroke="Black" Canvas.Top="110" Width="3" Opacity="0.5"/>
+        <Rectangle Fill="Black" Height="500" Canvas.Left="1519" Stroke="Black" Canvas.Top="110" Width="3" Opacity="0.5"/>
+        <Rectangle Fill="Black" Height="500" Canvas.Left="1599" Stroke="Black" Canvas.Top="110" Width="3" Opacity="0.5"/>
+        <Rectangle Fill="Black" Height="500" Canvas.Left="1679" Stroke="Black" Canvas.Top="110" Width="3" Opacity="0.5"/>
+        <Rectangle Fill="Black" Height="480" Canvas.Left="150" Stroke="Black" Canvas.Top="120" Width="10"/>
+        <Rectangle Fill="Black" Height="480" Canvas.Left="800" Stroke="Black" Canvas.Top="120" Width="10"/>
+        <Rectangle Fill="Black" Height="480" Canvas.Left="1110" Stroke="Black" Canvas.Top="120" Width="10"/>
+        <Rectangle Fill="Black" Height="480" Canvas.Left="1760" Stroke="Black" Canvas.Top="120" Width="10"/>
+        <Rectangle Fill="Black" Height="10" Canvas.Left="150" Stroke="Black" Canvas.Top="110" Width="660"/>
+        <Rectangle Fill="Black" Height="10" Canvas.Left="150" Stroke="Black" Canvas.Top="600" Width="660"/>
+        <Rectangle Fill="Black" Height="10" Canvas.Left="1110" Stroke="Black" Canvas.Top="600" Width="660"/>
+        <Rectangle Fill="Black" Height="10" Canvas.Left="1110" Stroke="Black" Canvas.Top="110" Width="660"/>
+
+        <Rectangle Fill="Black" Height="6" Canvas.Left="380" Stroke="Black" Canvas.Top="813" Width="1200"/>
+
+    </Canvas>
+
+
+</Window>

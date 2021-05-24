@@ -1,0 +1,68 @@
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\LdaNative.dll
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\CpuMathNative.dll
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Kinect Science Fair.exe.config
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Kinect Science Fair.exe
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Kinect Science Fair.pdb
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Kinect Science FairML.Model.dll
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Microsoft.Kinect.dll
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Microsoft.ML.Core.dll
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Microsoft.ML.CpuMath.dll
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Microsoft.ML.Data.dll
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Microsoft.ML.DataView.dll
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Microsoft.ML.KMeansClustering.dll
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Microsoft.ML.PCA.dll
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Microsoft.ML.StandardTrainers.dll
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Microsoft.ML.Transforms.dll
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\System.Buffers.dll
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\System.CodeDom.dll
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\System.Collections.Immutable.dll
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\System.Memory.dll
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\System.Numerics.Vectors.dll
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\System.Threading.Channels.dll
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\System.Threading.Tasks.Extensions.dll
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Kinect Science FairML.Model.pdb
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Microsoft.Kinect.xml
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Microsoft.ML.Core.xml
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Microsoft.ML.CpuMath.xml
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Microsoft.ML.Data.xml
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Microsoft.ML.DataView.xml
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Microsoft.ML.KMeansClustering.xml
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Microsoft.ML.PCA.xml
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Microsoft.ML.StandardTrainers.xml
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Microsoft.ML.Transforms.xml
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Newtonsoft.Json.xml
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\System.Buffers.xml
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\System.Collections.Immutable.xml
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\System.Memory.xml
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\System.Numerics.Vectors.xml
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\System.Threading.Channels.xml
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\System.Threading.Tasks.Extensions.xml
+C:\Kinect Science Fair\Kinect Science Fair\obj\x64\Debug\Kinect Science Fair.csprojAssemblyReference.cache
+C:\Kinect Science Fair\Kinect Science Fair\obj\x64\Debug\MainWindow.g.cs
+C:\Kinect Science Fair\Kinect Science Fair\obj\x64\Debug\App.g.cs
+C:\Kinect Science Fair\Kinect Science Fair\obj\x64\Debug\Kinect Science Fair_Content.g.cs
+C:\Kinect Science Fair\Kinect Science Fair\obj\x64\Debug\Kinect Science Fair_MarkupCompile.cache
+C:\Kinect Science Fair\Kinect Science Fair\obj\x64\Debug\Kinect Science Fair_MarkupCompile.lref
+C:\Kinect Science Fair\Kinect Science Fair\obj\x64\Debug\MainWindow.baml
+C:\Kinect Science Fair\Kinect Science Fair\obj\x64\Debug\Kinect Science Fair.g.resources
+C:\Kinect Science Fair\Kinect Science Fair\obj\x64\Debug\Kinect_Science_Fair.Properties.Resources.resources
+C:\Kinect Science Fair\Kinect Science Fair\obj\x64\Debug\Kinect Science Fair.csproj.GenerateResource.cache
+C:\Kinect Science Fair\Kinect Science Fair\obj\x64\Debug\Kinect Science Fair.csproj.CoreCompileInputs.cache
+C:\Kinect Science Fair\Kinect Science Fair\obj\x64\Debug\Kinect Science Fair.csproj.CopyComplete
+C:\Kinect Science Fair\Kinect Science Fair\obj\x64\Debug\Kinect Science Fair.exe
+C:\Kinect Science Fair\Kinect Science Fair\obj\x64\Debug\Kinect Science Fair.pdb
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\MLModel.zip
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\FastTreeNative.dll
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Microsoft.ML.FastTree.dll
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Microsoft.ML.FastTree.xml
+C:\Kinect Science Fair\Kinect Science Fair\obj\x64\Debug\Interop.SpeechLib.dll
+C:\Kinect Science Fair\Kinect Science Fair\obj\x64\Debug\Kinect Science Fair.csproj.ResolveComReference.cache
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\lib_lightgbm.dll
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\lightgbm.exe
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Microsoft.ML.LightGbm.dll
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Microsoft.ML.LightGbm.xml
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Microsoft.ML.dll
+C:\Kinect Science Fair\Kinect Science Fair\bin\x64\Debug\Microsoft.ML.xml

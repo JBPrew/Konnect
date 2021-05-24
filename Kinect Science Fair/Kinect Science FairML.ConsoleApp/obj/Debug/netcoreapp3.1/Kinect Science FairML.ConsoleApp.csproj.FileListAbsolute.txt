@@ -1,0 +1,36 @@
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\bin\Debug\netcoreapp3.1\MLModel.zip
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\bin\Debug\netcoreapp3.1\Kinect Science FairML.ConsoleApp.exe
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\bin\Debug\netcoreapp3.1\Kinect Science FairML.ConsoleApp.deps.json
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\bin\Debug\netcoreapp3.1\Kinect Science FairML.ConsoleApp.runtimeconfig.json
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\bin\Debug\netcoreapp3.1\Kinect Science FairML.ConsoleApp.runtimeconfig.dev.json
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\bin\Debug\netcoreapp3.1\Kinect Science FairML.ConsoleApp.dll
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\bin\Debug\netcoreapp3.1\Kinect Science FairML.ConsoleApp.pdb
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.ML.Core.dll
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.ML.Data.dll
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.ML.KMeansClustering.dll
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.ML.PCA.dll
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.ML.StandardTrainers.dll
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.ML.Transforms.dll
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.ML.CpuMath.dll
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.ML.DataView.dll
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.ML.FastTree.dll
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libLdaNative.so
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libLdaNative.dylib
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\LdaNative.dll
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\LdaNative.dll
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libFastTreeNative.so
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libFastTreeNative.dylib
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\FastTreeNative.dll
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\FastTreeNative.dll
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\bin\Debug\netcoreapp3.1\Kinect Science FairML.Model.dll
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\bin\Debug\netcoreapp3.1\Kinect Science FairML.Model.pdb
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\obj\Debug\netcoreapp3.1\Kinect Science FairML.ConsoleApp.csprojAssemblyReference.cache
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\obj\Debug\netcoreapp3.1\Kinect Science FairML.ConsoleApp.AssemblyInfoInputs.cache
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\obj\Debug\netcoreapp3.1\Kinect Science FairML.ConsoleApp.AssemblyInfo.cs
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\obj\Debug\netcoreapp3.1\Kinect Science FairML.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\obj\Debug\netcoreapp3.1\Kinect Science FairML.ConsoleApp.csproj.CopyComplete
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\obj\Debug\netcoreapp3.1\Kinect Science FairML.ConsoleApp.dll
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\obj\Debug\netcoreapp3.1\Kinect Science FairML.ConsoleApp.pdb
+C:\Kinect Science Fair\Kinect Science FairML.ConsoleApp\obj\Debug\netcoreapp3.1\Kinect Science FairML.ConsoleApp.genruntimeconfig.cache
