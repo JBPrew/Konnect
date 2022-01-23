@@ -27,7 +27,7 @@
 
 <h3>Awards 🏆</h3>
 <ul>
-  <li>2nd Place in GSMST Science and Engineering Fair</li>
+  <li>2nd Place in Gwinnett Science and Engineering Fair</li>
   <li>2nd Place Finalist in Georgia's Junior Science & Humanities Symposium</li>
   <li>Invited to the National Junior Science & Humanities Symposium</li>
 </ul>
